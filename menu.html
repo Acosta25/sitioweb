@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <style>
+        /* Estilo para los botones */
+        button {
+            background-color: #0ad6dd; /* Color de fondo */
+            color: rgb(28, 1, 1); /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border: 15px, rgb(28, 1, 1); /* Sin borde none */
+            border-radius: 10px; /* Borde redondeado */
+            margin: 15px; /* Margen exterior */
+            cursor: pointer; /* Cambiar cursor al pasar por encima */
+            font-family: 'luminari'; /* Tipo de letra */
+        }
+
+        button:hover {
+            background-color: #d317ca; /* Cambiar color de fondo al pasar por encima */
+        }
+
+        /* Estilo para el texto */
+        p {
+            font-family: 'american typewriter'; /* Tipo de letra */
+            text-align: center;
+        }
+
+        /* Estilo para el título */
+        h1 {
+            font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;/* Tipo de letra */
+            text-align: center;
+        }
+        body{
+            background-color: rgb(203, 198, 235);
+        }
+    </style>
+    </style>
+</head>
+<h1>Menu Actividades</h1>
+<p>Click en la opcion</p>
+<button onclick="primero()">Variables</button>
+<button onclick="segundo()">GENERADOR DE PARRAFOS</button>
+<button onclick="tercero()">SOLICITA IMPRIMIR TABLA</button>
+<button onclick="cuarto()">TABLA CARACTER</button>
+<button onclick="quinto()">TABLA NUMERO ALEATORIO</button>
+<button onclick="seis()">VALIDAR CONTRASEÑA</button>
+<button onclick="siete()">CONVERTIR GRADOS</button>
+<button onclick="ocho()">MENU ARREGLOS</button>
+<p id="demo"></p>
+<script>
+    function primero(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/variablesnumero1.html'>Variables</a>";
+    }
+    function segundo(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/generadornumero2.html'>Generador de parrafos</a>";
+    }
+    function tercero(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/tablanumero3.html'>Imprimir tabla</a>";
+    }
+    function cuarto(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/numero4caracter.html'>Tabla caracter</a>";
+    }
+    function quinto(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/numero5numealeatorio.html'>Tabla numero aleatorio</a>";
+    }
+    function seis(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/numero6validarcontraseña.html'>Validar admin</a>";
+    }
+    function siete(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/numero7convertirgrados.html'>Convertir grados</a>";
+    }
+    function ocho(){
+        document.getElementById("demo").innerHTML
+        ="<a href='https://acosta25.github.io/sitioweb/numero8menuarreglos.html'>Arreglos</a>";
+    }
+
+</script>
+</body>
+</html>
